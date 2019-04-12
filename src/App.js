@@ -2,13 +2,17 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/header/Header';
+import Menu from './components/menu/Menu';
+import Submenu from './components/submenu/Submenu';
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-      <Header title="Agência Alagoas" name="Governo do Estado de Alagoas" />
+        <Header title="Agência Alagoas" description="Governo do Estado de Alagoas" />
+        <Menu />
+        <Submenu />
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>

@@ -1,3 +1,9 @@
 [submodule "src/components/header"]
 	path = src/components/header
 	url = https://github.com/felipemrvieira/itec-cms-header.git
+[submodule "src/components/menu"]
+	path = src/components/menu
+	url = https://github.com/felipemrvieira/itec-cms-menu.git
+[submodule "src/components/submenu"]
+	path = src/components/submenu
+	url = https://github.com/felipemrvieira/itec-cms-submenu.git
