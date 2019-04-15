@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import Header from './components/header/Header';
 import Menu from './components/menu/Menu';
 import Submenu from './components/submenu/Submenu';
+
+import central from './images/banner-central-de-servicos.png';
+import portfolio from './images/banner-portifolio.png';
+import Banner from './components/banner/Banner';
 
 
 class App extends Component {
@@ -13,20 +17,22 @@ class App extends Component {
         <Header title="Agência Alagoas" description="Governo do Estado de Alagoas" />
         <Menu />
         <Submenu />
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </div>
+        <main>
+          <section className="container">
+            <div className="row">
+              <div className="col-lg-6">
+                <Banner src={central} alt="Central de Serviços" />
+                <Banner src={portfolio} alt="Portfolio" />
+              </div>
+              <div className="col-lg-6">
+                <iframe width="100%" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+              </div>
+            </div>
+          </section>
+        </main>
+
+         
       </div>
     );
   }

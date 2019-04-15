@@ -7,3 +7,6 @@
 [submodule "src/components/submenu"]
 	path = src/components/submenu
 	url = https://github.com/felipemrvieira/itec-cms-submenu.git
+[submodule "src/components/banner"]
+	path = src/components/banner
+	url = https://github.com/felipemrvieira/itec-cms-banner.git
