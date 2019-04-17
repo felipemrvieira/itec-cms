@@ -8,6 +8,8 @@ import Submenu from './components/submenu/Submenu';
 import central from './images/banner-central-de-servicos.png';
 import portfolio from './images/banner-portifolio.png';
 import Banner from './components/banner/Banner';
+import Iframe from './components/iframe/Iframe';
+import Footer from './components/footer/Footer';
 
 
 class App extends Component {
@@ -25,12 +27,16 @@ class App extends Component {
                 <Banner src={portfolio} alt="Portfolio" />
               </div>
               <div className="col-lg-6">
-                <iframe width="100%" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                </iframe>
+                <Iframe width="100%" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY" />
               </div>
             </div>
           </section>
         </main>
+        <Footer 
+          title="Agência Alagoas" 
+          description="Governo do Estado de Alagoas"
+          phone="+55 82 3332-2245"
+        />
 
          
       </div>

@@ -10,3 +10,9 @@
 [submodule "src/components/banner"]
 	path = src/components/banner
 	url = https://github.com/felipemrvieira/itec-cms-banner.git
+[submodule "src/components/iframe"]
+	path = src/components/iframe
+	url = https://github.com/felipemrvieira/itec-cms-iframe.git
+[submodule "src/components/footer"]
+	path = src/components/footer
+	url = https://github.com/felipemrvieira/itec-cms-footer.git
