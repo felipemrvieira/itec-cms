@@ -16,3 +16,6 @@
 [submodule "src/components/footer"]
 	path = src/components/footer
 	url = https://github.com/felipemrvieira/itec-cms-footer.git
+[submodule "src/components/itens"]
+	path = src/components/itens
+	url = https://github.com/felipemrvieira/itec-cms-itens.git

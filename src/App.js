@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.scss';
 import Header from './components/header/Header';
 import Menu from './components/menu/Menu';
@@ -9,6 +8,8 @@ import central from './images/banner-central-de-servicos.png';
 import portfolio from './images/banner-portifolio.png';
 import Banner from './components/banner/Banner';
 import Iframe from './components/iframe/Iframe';
+import Itens from './components/itens/Itens';
+
 import Footer from './components/footer/Footer';
 
 
@@ -32,6 +33,7 @@ class App extends Component {
             </div>
           </section>
         </main>
+        <Itens title="Itens" />
         <Footer 
           title="Agência Alagoas" 
           description="Governo do Estado de Alagoas"
